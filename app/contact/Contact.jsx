@@ -9,10 +9,10 @@ import { showCarToast } from "../components/CarToast";
 
 const contactSchema = z.object({
   name: z
-    .string()
-    .trim()
-    .min(2, "Name must be at least 2 characters")
-    .max(80, "Name must be under 80 characters"),
+.string()
+.trim()
+.min(2, "Name must be at least 2 characters")
+.max(80, "Name must be under 80 characters"),
   email: z
     .string()
     .trim()

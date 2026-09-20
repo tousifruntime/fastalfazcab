@@ -99,32 +99,6 @@ const AREAS = [
   },
 ];
 
-const CALL_ACTIONS = [
-  {
-    id: 1,
-    label: "Book a Ride",
-    phone: "+919876543210",
-    icon: "car",
-  },
-  {
-    id: 2,
-    label: "Airport Transfer",
-    phone: "+919876543210",
-    icon: "plane",
-  },
-  {
-    id: 3,
-    label: "Outstation Trip",
-    phone: "+919876543210",
-    icon: "map",
-  },
-  {
-    id: 4,
-    label: "Emergency Pickup",
-    phone: "+919876543210",
-    icon: "alert",
-  },
-];
 
 export default function About() {
   return (

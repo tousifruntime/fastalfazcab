@@ -59,11 +59,7 @@ export default function Marquee() {
   }, []);
 
   return (
-    <section
-      ref={sectionRef}
-      className="pt-16 sm:pt-24 md:pt-32 lg:pt-40 pb-10 overflow-hidden"
-      style={{ backgroundColor: "#0C0C0C" }}
-    >
+    <section  ref={sectionRef}  className="pt-16 sm:pt-24 md:pt-32 lg:pt-40 pb-10 overflow-hidden"  style={{ backgroundColor: "#0C0C0C" }} >
       <div className="flex flex-col gap-2 sm:gap-3">
         <MarqueeRow images={ROW_1} offset={offset} direction="right" />
         <MarqueeRow images={ROW_2} offset={offset} direction="left" />

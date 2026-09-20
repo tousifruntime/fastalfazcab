@@ -120,10 +120,7 @@ const Page = () => {
   return (
     <>
       <div  className="min-h-screen pt-20"   style={{ backgroundColor: "#0C0C0C", overflowX: "clip" }} >
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(cabServiceSchema) }}
-        />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(cabServiceSchema) }}/>
 
         <Nav />
 

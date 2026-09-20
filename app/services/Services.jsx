@@ -2,8 +2,7 @@ import FadeIn from "../components/Fadein";
 
 export const metadata = {
   title: "Cab Services in Goa | Airport, Local & Outstation Taxi",
-  description:
-    "Explore Alfaz cab services in Goa including airport transfers, local taxi rides, sightseeing trips, and comfortable outstation journeys.",
+  description:  "Explore Alfaz cab services in Goa including airport transfers, local taxi rides, sightseeing trips, and comfortable outstation journeys.",
   alternates: {
     canonical: "https://yourdomain.com/services",
   },
@@ -68,8 +67,7 @@ export default function Services() {
           <FadeIn key={service.number} delay={i * 0.1}>
             <div
               className="flex items-start gap-4 sm:gap-10 py-6 sm:py-10 md:py-12"
-              style={{ borderBottom: "1px solid rgba(12, 12, 12, 0.15)" }}
-            >
+              style={{ borderBottom: "1px solid rgba(12, 12, 12, 0.15)" }} >
               <span
                 className="font-black flex-shrink-0"
                 style={{
