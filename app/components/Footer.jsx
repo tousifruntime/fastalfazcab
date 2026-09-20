@@ -8,23 +8,23 @@ import {FaFacebookF,FaInstagram,FaYoutube,FaTwitter,} from "react-icons/fa";
 
 const exploreLinks = [
   { label: "Home", href: "/" },
-  { label: "Inventory", href: "/inventory" },
-  { label: "About Us", href: "/about" },
+  { label: "Service", href: "/#services" },
+  { label: "About Us", href: "/#about" },
   { label: "Contact", href: "/#contact" },
 ];
 
 const serviceLinks = [
-  { label: "Financing", href: "/financing" },
-  { label: "Trade-In Value", href: "/trade-in" },
-  { label: "Service Center", href: "/service" },
-  { label: "Warranty", href: "/warranty" },
+  { label: "North Goa", href: "/location/north-goa" },
+  { label: "South Goa ", href: "/location/south-goa" },
+  { label: "Ponda", href: "/location/ponda" },
+  { label: "Margoa", href: "/location/margoa" },
 ];
 
 const companyLinks = [
-  { label: "Careers", href: "/careers" },
-  { label: "Customer Reviews", href: "/reviews" },
-  { label: "Privacy Policy", href: "/privacy" },
-  { label: "Terms of Service", href: "/terms" },
+  { label: "Careers", href: "/#contact" },
+  { label: "Customer Reviews", href: "/#contact" },
+  { label: "Privacy Policy", href: "/#contact" },
+  { label: "Terms of Service", href: "/#contact" },
 ];
 
 const socialLinks = [
@@ -111,18 +111,16 @@ export default function Footer() {
               className="flex items-center gap-2 hover:text-white transition-colors duration-300"
             >
               <Phone size={14} className="text-green-400 shrink-0" />
-              +91 (9876) 543-210
+              +91 7776069948
             </a>
-            <a
-              href="mailto:hello@velocitymotors.com"
-              className="flex items-center gap-2 hover:text-white transition-colors duration-300 break-all"
-            >
+            <a  href="mailto:fastalfazcab@gmail.com"
+              className="flex items-center gap-2 hover:text-white transition-colors duration-300 break-all">
               <Mail size={14} className="text-purple-400 shrink-0" />
-              hello@velocitymotors.com
+              fastalfazcab@gmail.com
             </a>
             <span className="flex items-center gap-2">
               <MapPin size={14} className="text-blue-400 shrink-0" />
-              Madgaon, Goa, India
+              Panjim, Goa, India
             </span>
           </div>
 

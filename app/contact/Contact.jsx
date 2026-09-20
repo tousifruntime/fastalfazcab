@@ -82,7 +82,7 @@ export default function Contact() {
               </div>
 
               <p className="text-sm text-gray-400 uppercase tracking-wide mb-1">Address</p>
-              <p className="text-base sm:text-lg font-medium">Madgaon, Goa</p>
+              <p className="text-base sm:text-lg font-medium">Panjim, Goa</p>
               <p className="text-sm text-gray-400">India</p>
             </div>
 
@@ -114,14 +114,13 @@ export default function Contact() {
             <div>
               <p className="text-sm text-gray-400 uppercase tracking-wide mb-2">
                 Phone
-                <span className="ml-4 text-base sm:text-lg font-medium text-gray-300 mb-4">+91 (9876) 543-210</span>
+                <span className="ml-4 text-base sm:text-lg font-medium text-gray-300 mb-4">+91 7776069948</span>
               </p>
             </div>
 
             <button
-              onClick={() => (window.location.href = "tel:+919876543210")}
-              className="w-full bg-linear-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 text-white font-semibold py-3 px-6 rounded-lg transition-all duration-300 transform hover:scale-105 active:scale-95 flex items-center justify-center gap-2"
-            >
+              onClick={() => (window.location.href = "tel:+917776069948")}
+              className="w-full bg-linear-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 text-white font-semibold py-3 px-6 rounded-lg transition-all duration-300 transform hover:scale-105 active:scale-95 flex items-center justify-center gap-2">
               <Phone size={18} />
               Start Call
             </button>

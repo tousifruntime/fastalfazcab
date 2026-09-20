@@ -72,8 +72,8 @@ export default function Hero() {
             xl:h-[86vh]
 
             /* CHANGE POSITION */
-            xl:left-[22%]
-            xl:top-[5.5rem]
+            xl:left-[-15%]
+            xl:top-[-2.0rem]
           "
         />
       </div>

@@ -206,7 +206,7 @@ export async function POST(request) {
       day: "numeric",
     });
 
-    const fromAddress = process.env.RESEND_FROM_EMAIL || "onboarding@resend.dev";
+    const fromAddress = "onboarding@resend.dev";
 
     // SEND ONLY TO ADMIN - NO CLIENT EMAIL
     const adminPayload = {
