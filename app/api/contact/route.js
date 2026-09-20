@@ -57,7 +57,7 @@ function getCorsHeaders(request) {
     process.env.MY_FRONTEND_URL_DEV,
     process.env.MY_FRONTEND_URL_PROD,
     "http://localhost:3000",
-    "http://127.0.0.1:3000",
+    "http://172.21.160.1:3000",
   ].filter(Boolean);
 
   const isAllowed = !!origin && allowedOrigins.includes(origin);

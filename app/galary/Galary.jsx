@@ -29,33 +29,24 @@ export const metadata = {
 const PROJECTS = [
   {
     number: "01",
-    category: "Client",
-    name: "Nextlevel Studio",
-    col1: [
-       "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260412_055431_11d841fd-8b41-46a5-82e4-b04f2407a7d8.png&w=1280&q=85",
-    ],
-    col2:
-      "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260412_055451_e317bf2d-28d4-48cc-86b0-6f72f25b6327.png&w=1280&q=85",
+    category: "Alfaz Cab Service",
+    name: "Goa Cab Service",
+    col1: ["/images/Galary/L-1.png"],
+    col2: "/images/Galary/R-1.webp",
   },
   {
     number: "02",
-    category: "Personal",
-    name: "Aura Brand Identity",
-    col1: [
-      "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260412_055654_911201c5-36d9-4bc6-bac7-331adfce159f.png&w=1280&q=85",
-     ],
-    col2:
-      "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260412_055753_adc5dcbd-a8e6-49c0-b43a-9b030d835cea.png&w=1280&q=85",
+    category: "Alfaz Cab Service",
+    name: "Goa Taxi Service",
+    col1: ["/images/Galary/L-2.png"],
+    col2: "/images/Galary/R-2.webp",
   },
   {
     number: "03",
-    category: "Client",
-    name: "Solaris Digital",
-    col1: [
-      "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260412_055759_963cfb0b-4bd1-4b0f-9d0a-09bd6cf95b2f.png&w=1280&q=85",
-     ],
-    col2:
-      "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260412_055818_9d062121-ad7e-46b9-999a-1a6a692ef1ee.png&w=1280&q=85",
+    category: "Alfaz Cab Service",
+    name: "Goa Travel",
+    col1: ["/images/Galary/L-3.png"],
+    col2: "/images/Galary/R-3.webp",
   },
 ];
 
@@ -111,7 +102,7 @@ function ProjectCard({ project, index, total }) {
           <div className="min-h-0 h-3/5 sm:h-auto w-full sm:w-[60%]">
             <img  src={project.col2}
               alt={`${project.name} main`}
-              className="w-full h-full object-cover rounded-[24px] sm:rounded-[50px] md:rounded-[60px]"
+              className="w-full h-full object-cover rounded-3xl sm:rounded-[50px] md:rounded-[60px]"
             />
           </div>
 
