@@ -1,11 +1,8 @@
-
-
 // app/sitemap.js
 
-
 export default function sitemap() {
-  const baseUrl = "https://fastalfazcab.in"
- 
+  const baseUrl = "https://fastalfazcab.in";
+
   const locations = [
     "north-goa",
     "south-goa",
@@ -13,22 +10,21 @@ export default function sitemap() {
     "panjim",
     "margoa",
     "dabolim",
-  ]
- 
-  const locationEntries = locations.map((loc) => ({
-    url: `${baseUrl}/location/${loc}`,
-    lastModified: new Date(),
-    changeFrequency: "monthly",
-    priority: 0.8,
-  }))
- 
+  ];
+
   return [
     {
-      url: `${baseUrl}/`,
+      url: baseUrl,
       lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 1,
     },
-    ...locationEntries,
-  ]
+
+    ...locations.map((loc) => ({
+      url: `${baseUrl}/location/${loc}`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    })),
+  ];
 }
