@@ -94,7 +94,7 @@ export default function Footer() {
         <div className=" flex flex-col gap-4 sm:col-span-2 lg:col-span-1">
           <div className="flex items-center gap-2">
             <span className="flex items-center justify-center w-9 h-9 shrink-0 rounded-lg bg-linear-to-r from-blue-500 to-purple-600">
-              <Car size={18} />
+              <img src="/images/Logo/Logo.webp" alt="" />
             </span>
             <span className="text-lg font-bold tracking-tight">
               Fast Alfaz Cab
