@@ -1,7 +1,6 @@
 import { Resend } from "resend";
 import { z } from "zod";
 
-const resend = new Resend(process.env.RESEND_API_KEY || "");
 const RATE_LIMIT_WINDOW_MS = 3 * 60 * 1000;
 const RATE_LIMIT_MAX_REQUESTS = 5;
 const rateLimitMap = new Map();
@@ -152,6 +151,8 @@ export async function POST(request) {
   const corsHeaders = getCorsHeaders(request);
 
   try {
+    
+    const resend = new Resend(process.env.RESEND_API_KEY || "");
     const rateLimit = checkSimpleRateLimit(request);
     if (!rateLimit.success) {
       const retryAfterSeconds = Math.max(
