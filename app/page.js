@@ -14,8 +14,7 @@ const PHONE = "+91-7489415896";
 
 export const metadata = {
   title: "Cab in Goa | Reliable 24/7 Cab Service by Alfaz",
-  description:
-    "Looking for a trusted cab in Goa? Alfaz offers safe, comfortable rides for airport transfers, local trips, and outstation journeys — available 24/7.",
+  description:  "Looking for a trusted cab in Goa? Alfaz offers safe, comfortable rides for airport transfers, local trips, and outstation journeys — available 24/7.",
   metadataBase: new URL(SITE_URL),
   alternates: {
     canonical: "/",
@@ -33,6 +32,10 @@ export const metadata = {
     "outstation cab Goa",
     "24/7 cab service Goa",
     "reliable cab Goa",
+    "cab near me",
+    "fast alfaz cab",
+    "Alfaz cab service",
+    "Alfaz cab"
   ],
 
   // Tells Google to index this page and follow its links
@@ -73,15 +76,15 @@ export const metadata = {
     title: "Cab in Goa | Reliable 24/7 Cab Service by Alfaz",
     description:
       "Trusted cab in Goa for airport transfers, local rides, and outstation journeys — available 24/7.",
-    images: ["/og-image.jpg"],
+     images: ["/images/Logo/Logo.webp"],
   },
 
   // Icons / favicon
   icons: {
-    icon: "/favicon.ico",
-    shortcut: "/favicon-16x16.png",
-    apple: "/apple-touch-icon.png",
-  },
+  icon: "/images/Logo/Logo.webp",
+  shortcut: "/images/Logo/Logo.webp",
+  apple: "/images/Logo/Logo.webp",
+},
 
   category: "Transportation",
   authors: [{ name: "Alfaz" }],

@@ -1,6 +1,7 @@
 import Nav from "@/app/components/Nav";
 import FadeIn from "../../components/Fadein";
 import Footer from "@/app/components/Footer";
+import CallButton from "@/app/components/CallButton";
 
 export const metadata = {
   title: "Cab Service in Ponda Goa | Temple, Spice Farm & Local Taxi | Alfaz",
@@ -163,6 +164,9 @@ export default function Ponda() {
           ))}
         </div>
       </section>
+
+       {/* Kept outside the clipped wrapper so the fixed button is never cut off */}
+            <CallButton phone="7489415896" countryCode="+91" label="Call now" />
 
       <Footer />
     </>

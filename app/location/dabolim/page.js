@@ -1,6 +1,7 @@
 import Footer from "@/app/components/Footer";
 import FadeIn from "../../components/Fadein";
 import Nav from "@/app/components/Nav";
+import CallButton from "@/app/components/CallButton";
 
 export const metadata = {
   title: "Cab Service in Dabolim | Airport Transfer & Local Taxi | Alfaz",
@@ -147,6 +148,8 @@ export default function Dabolim() {
           ))}
         </div>
       </section>
+       {/* Kept outside the clipped wrapper so the fixed button is never cut off */}
+      <CallButton phone="7489415896" countryCode="+91" label="Call now" />
 
       <Footer />
     </>
