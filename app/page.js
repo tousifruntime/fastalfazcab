@@ -9,7 +9,7 @@ import Marquee from "./Marquee/Marquee";
 import Footer from "./components/Footer";
 import CallButton from "./components/CallButton";
 
-const SITE_URL = "http://fastalfazcab.in";
+const SITE_URL = "https://fastalfazcab.in";
 const PHONE = "+91-7489415896";
 
 export const metadata = {
@@ -102,17 +102,18 @@ export const cabServiceSchema = {
     "Reliable cab in Goa for airport transfers, local rides, and outstation trips.",
   telephone: PHONE,
   priceRange: "₹₹",
-  areaServed: ["Goa", "Calangute", "Baga", "Anjuna", "Panjim", "Margao"],
+  areaServed: [
+    "Goa",
+    "Calangute",
+    "Baga",
+    "Anjuna",
+    "Panjim",
+    "Margao",
+  ],
   address: {
     "@type": "PostalAddress",
     addressLocality: "Goa",
     addressCountry: "IN",
-  },
-  // Only include aggregateRating if these numbers are real and verifiable
-  aggregateRating: {
-    "@type": "AggregateRating",
-    ratingValue: "4.9",
-    reviewCount: "1000",
   },
 };
 

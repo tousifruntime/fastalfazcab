@@ -7,7 +7,7 @@ export const metadata = {
   description:
     "Reliable cab and taxi service in Dabolim for Goa airport transfers, Vasco da Gama, Bogmalo Beach and nearby South Goa locations. Available 24/7.",
   alternates: {
-    canonical: "http://fastalfazcab.in/location/dabolim",
+    canonical: "https://fastalfazcab.in/location/dabolim",
   },
   keywords: [
     "cab in Dabolim Goa",
@@ -17,11 +17,11 @@ export const metadata = {
     "Bogmalo Beach taxi",
     "Dabolim local taxi",
   ],
-  openGraph: { title: "Cab Service in Dabolim | Alfaz", description: "Reliable airport transfer and local taxi service in Dabolim, Vasco da Gama and nearby Goa destinations. Available 24/7.", url: "http://fastalfazcab.in/location/dabolim", siteName: "Alfaz Cab Service", images: [{ url: "https://yourdomain.com/og-image.jpg", width: 1200, height: 630, alt: "Alfaz Cab Service — Dabolim Goa" }], locale: "en_IN", type: "website" },
+  openGraph: { title: "Cab Service in Dabolim | Alfaz", description: "Reliable airport transfer and local taxi service in Dabolim, Vasco da Gama and nearby Goa destinations. Available 24/7.", url: "https://fastalfazcab.in/location/dabolim", siteName: "Alfaz Cab Service", images: [{ url: "https://fastalfazcab.in/og-image.jpg", width: 1200, height: 630, alt: "Alfaz Cab Service — Dabolim Goa" }], locale: "en_IN", type: "website" },
 };
 
-const taxiServiceSchema = { "@context": "https://schema.org", "@type": "TaxiService", name: "Alfaz Cab Service — Dabolim", image: "https://yourdomain.com/og-image.jpg", description: "Reliable cab and taxi service in Dabolim for airport transfers, beach trips, and local rides.", telephone: "+91-7489415896", priceRange: "₹₹", areaServed: ["Dabolim", "Goa Airport", "Vasco da Gama", "Bogmalo", "Chicalim"], address: { "@type": "PostalAddress", addressLocality: "Dabolim", addressRegion: "Goa", addressCountry: "IN" }, geo: { "@type": "GeoCoordinates", latitude: "15.3800", longitude: "73.8380" } };
-const breadcrumbSchema = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "Home", item: "http://fastalfazcab.in/" }, { "@type": "ListItem", position: 2, name: "Dabolim Cab Service", item: "http://fastalfazcab.in/location/dabolim" }] };
+const taxiServiceSchema = { "@context": "https://schema.org", "@type": "TaxiService", name: "Alfaz Cab Service — Dabolim", image: "https://fastalfazcab.in/og-image.jpg", description: "Reliable cab and taxi service in Dabolim for airport transfers, beach trips, and local rides.", telephone: "+91-7489415896", priceRange: "₹₹", areaServed: ["Dabolim", "Goa Airport", "Vasco da Gama", "Bogmalo", "Chicalim"], address: { "@type": "PostalAddress", addressLocality: "Dabolim", addressRegion: "Goa", addressCountry: "IN" }, geo: { "@type": "GeoCoordinates", latitude: "15.3800", longitude: "73.8380" } };
+const breadcrumbSchema = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "Home", item: "https://fastalfazcab.in/" }, { "@type": "ListItem", position: 2, name: "Dabolim Cab Service", item: "https://fastalfazcab.in/location/dabolim" }] };
 
 
 
