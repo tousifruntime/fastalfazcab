@@ -2,7 +2,7 @@
 
 // app/robots.js 
 
-export function robots() {
+export default  function robots() {
   return {
     rules: {
       userAgent: "*",
