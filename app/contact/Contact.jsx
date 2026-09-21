@@ -88,19 +88,19 @@ export default function Contact() {
 
             <div className="border border-gray-700 h-48 sm:h-full w-full rounded-l hover:border-white transition-colors duration-300">
               <iframe
-                className="w-full h-full p-1 border-0"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30769.381009294608!2d73.99188062193605!3d15.421231532010417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbfbaea8337557f%3A0xa00a91a9e0467fcf!2sSharifa%20Residency%2C%20Electricity%20Dept%20Staff%20Residential%20Colony%2C%20Ponda%2C%20Goa%20403401!5e0!3m2!1sen!2sin!4v1786640265100!5m2!1sen!2sin"
-                title="Location Map"
-              />
+  className="w-full h-full p-1 border-0"
+  src="https://www.google.com/maps?q=15.486946566309456,73.81783927077932&z=15&output=embed"
+  title="Location Map"
+  allowFullScreen=""
+  loading="lazy"
+/>
             </div>
           </div>
 
           <div className="space-y-4 text-gray-300">
             <div className="pt-4 border-t border-gray-700">
               <p className="text-sm text-gray-400 uppercase tracking-wide mb-2">Hours</p>
-              <p className="text-sm">Monday - Friday: 9:00 AM - 6:00 PM</p>
-              <p className="text-sm">Saturday: 10:00 AM - 4:00 PM</p>
-              <p className="text-sm">Sunday: Closed</p>
+              <p className="text-sm">Monday - Sunday: 24/7</p> 
             </div>
           </div>
         </div>
