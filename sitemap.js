@@ -3,7 +3,7 @@
 // app/sitemap.js
 
 
-export function sitemap() {
+export default function sitemap() {
   const baseUrl = "https://fastalfazcab.in"
  
   const locations = [
