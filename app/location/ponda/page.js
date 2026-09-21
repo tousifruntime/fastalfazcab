@@ -18,10 +18,10 @@ export const metadata = {
     "Ponda spice farm cab",
     "Ponda sightseeing taxi",
   ],
-  openGraph: { title: "Cab Service in Ponda Goa | Alfaz", description: "Reliable cab and taxi service in Ponda for temples, spice farms, airport transfers and local trips. Available 24/7.", url: "https://fastalfazcab.in/location/ponda", siteName: "Alfaz Cab Service", images: [{ url: "https://fastalfazcab.in/og-image.jpg", width: 1200, height: 630, alt: "Alfaz Cab Service — Ponda Goa" }], locale: "en_IN", type: "website" },
+  openGraph: { title: "Cab Service in Ponda Goa | Alfaz", description: "Reliable cab and taxi service in Ponda for temples, spice farms, airport transfers and local trips. Available 24/7.", url: "https://fastalfazcab.in/location/ponda", siteName: "Alfaz Cab Service", images: [{ url: "https://fastalfazcab.in/images/Logo/Logo.webp", width: 1200, height: 630, alt: "Alfaz Cab Service — Ponda Goa" }], locale: "en_IN", type: "website" },
 };
 
-const taxiServiceSchema = { "@context": "https://schema.org", "@type": "TaxiService", name: "Alfaz Cab Service — Ponda Goa", image: "https://fastalfazcab.in/og-image.jpg", description: "Reliable cab and taxi service in Ponda for temple visits, spice farms, airport transfers, and local rides.", telephone: "+91-7489415896", priceRange: "₹₹", areaServed: ["Ponda", "Mangeshi", "Kavlem", "Shiroda", "Bondla"], address: { "@type": "PostalAddress", addressLocality: "Ponda", addressRegion: "Goa", addressCountry: "IN" }, geo: { "@type": "GeoCoordinates", latitude: "15.4020", longitude: "74.0120" } };
+const taxiServiceSchema = { "@context": "https://schema.org", "@type": "TaxiService", name: "Alfaz Cab Service — Ponda Goa", image: "https://fastalfazcab.in/images/Logo/Logo.webp", description: "Reliable cab and taxi service in Ponda for temple visits, spice farms, airport transfers, and local rides.", telephone: "+91-7489415896", priceRange: "₹₹", areaServed: ["Ponda", "Mangeshi", "Kavlem", "Shiroda", "Bondla"], address: { "@type": "PostalAddress", addressLocality: "Ponda", addressRegion: "Goa", addressCountry: "IN" }, geo: { "@type": "GeoCoordinates", latitude: "15.4020", longitude: "74.0120" } };
 const breadcrumbSchema = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "Home", item: "https://fastalfazcab.in/" }, { "@type": "ListItem", position: 2, name: "Ponda Goa Cab Service", item: "https://fastalfazcab.in/location/ponda" }] };
 
 

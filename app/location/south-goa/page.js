@@ -18,10 +18,10 @@ export const metadata = {
     "Benaulim taxi",
     "South Goa airport transfer",
   ],
-  openGraph: { title: "Cab Service in South Goa | Alfaz", description: "Reliable cab and taxi service in South Goa — Colva, Palolem, Benaulim and beyond. Available 24/7.", url: "https://fastalfazcab.in/location/south-goa", siteName: "Alfaz Cab Service", images: [{ url: "https://fastalfazcab.in/og-image.jpg", width: 1200, height: 630, alt: "Alfaz Cab Service — South Goa" }], locale: "en_IN", type: "website" },
+  openGraph: { title: "Cab Service in South Goa | Alfaz", description: "Reliable cab and taxi service in South Goa — Colva, Palolem, Benaulim and beyond. Available 24/7.", url: "https://fastalfazcab.in/location/south-goa", siteName: "Alfaz Cab Service", images: [{ url: "https://fastalfazcab.in/images/Logo/Logo.webp", width: 1200, height: 630, alt: "Alfaz Cab Service — South Goa" }], locale: "en_IN", type: "website" },
 };
 
-const taxiServiceSchema = { "@context": "https://schema.org", "@type": "TaxiService", name: "Alfaz Cab Service — South Goa", image: "https://fastalfazcab.in/og-image.jpg", description: "Reliable cab and taxi service in South Goa for airport transfers, beach trips, and local rides.", telephone: "+91-7489415896", priceRange: "₹₹", areaServed: ["South Goa", "Colva", "Palolem", "Benaulim", "Cavelossim"], address: { "@type": "PostalAddress", addressLocality: "South Goa", addressRegion: "Goa", addressCountry: "IN" }, geo: { "@type": "GeoCoordinates", latitude: "15.2048", longitude: "74.1000" } };
+const taxiServiceSchema = { "@context": "https://schema.org", "@type": "TaxiService", name: "Alfaz Cab Service — South Goa", image: "https://fastalfazcab.in/images/Logo/Logo.webp", description: "Reliable cab and taxi service in South Goa for airport transfers, beach trips, and local rides.", telephone: "+91-7489415896", priceRange: "₹₹", areaServed: ["South Goa", "Colva", "Palolem", "Benaulim", "Cavelossim"], address: { "@type": "PostalAddress", addressLocality: "South Goa", addressRegion: "Goa", addressCountry: "IN" }, geo: { "@type": "GeoCoordinates", latitude: "15.2048", longitude: "74.1000" } };
 const breadcrumbSchema = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "Home", item: "https://fastalfazcab.in/" }, { "@type": "ListItem", position: 2, name: "South Goa Cab Service", item: "https://fastalfazcab.in/location/south-goa" }] };
 
 const PLACES = [

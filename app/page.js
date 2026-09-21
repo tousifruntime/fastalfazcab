@@ -60,7 +60,7 @@ export const metadata = {
     siteName: "Alfaz Cab Service",
     images: [
       {
-        url: "/og-image.jpg",
+        url: "/images/Logo/Logo.webp",
         width: 1200,
         height: 630,
         alt: "Alfaz Cab Service in Goa",
@@ -99,7 +99,7 @@ export const cabServiceSchema = {
   "@context": "https://schema.org",
   "@type": "TaxiService",
   name: "Alfaz Cab Service",
-  image: `${SITE_URL}/og-image.jpg`,
+  image: `${SITE_URL}/images/Logo/Logo.webp`,
   url: SITE_URL,
   description:
     "Reliable cab in Goa for airport transfers, local rides, and outstation trips.",

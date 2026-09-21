@@ -20,10 +20,10 @@ export const metadata = {
     "Margao airport transfer",
     "Margao sightseeing taxi",
   ],
-  openGraph: { title: "Cab Service in Margao Goa | Alfaz", description: "Reliable cab and taxi service in Margao — city trips, airport transfers, sightseeing and South Goa travel. Available 24/7.", url: "https://fastalfazcab.in/location/margoa", siteName: "Alfaz Cab Service", images: [{ url: "https://fastalfazcab.in/og-image.jpg", width: 1200, height: 630, alt: "Alfaz Cab Service — Margao Goa" }], locale: "en_IN", type: "website" },
+  openGraph: { title: "Cab Service in Margao Goa | Alfaz", description: "Reliable cab and taxi service in Margao — city trips, airport transfers, sightseeing and South Goa travel. Available 24/7.", url: "https://fastalfazcab.in/location/margoa", siteName: "Alfaz Cab Service", images: [{ url: "https://fastalfazcab.in/images/Logo/Logo.webp", width: 1200, height: 630, alt: "Alfaz Cab Service — Margao Goa" }], locale: "en_IN", type: "website" },
 };
 
-const taxiServiceSchema = { "@context": "https://schema.org", "@type": "TaxiService", name: "Alfaz Cab Service — Margao Goa", image: "https://fastalfazcab.in/og-image.jpg", description: "Reliable cab and taxi service in Margao for city trips, airport transfers, sightseeing, and local rides.", telephone: "+91-7489415896", priceRange: "₹₹", areaServed: ["Margao", "Madgaon", "Colva", "Benaulim", "Navelim"], address: { "@type": "PostalAddress", addressLocality: "Margao", addressRegion: "Goa", addressCountry: "IN" }, geo: { "@type": "GeoCoordinates", latitude: "15.2750", longitude: "73.9570" } };
+const taxiServiceSchema = { "@context": "https://schema.org", "@type": "TaxiService", name: "Alfaz Cab Service — Margao Goa", image: "https://fastalfazcab.in/images/Logo/Logo.webp", description: "Reliable cab and taxi service in Margao for city trips, airport transfers, sightseeing, and local rides.", telephone: "+91-7489415896", priceRange: "₹₹", areaServed: ["Margao", "Madgaon", "Colva", "Benaulim", "Navelim"], address: { "@type": "PostalAddress", addressLocality: "Margao", addressRegion: "Goa", addressCountry: "IN" }, geo: { "@type": "GeoCoordinates", latitude: "15.2750", longitude: "73.9570" } };
 const breadcrumbSchema = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "Home", item: "https://fastalfazcab.in/" }, { "@type": "ListItem", position: 2, name: "Margao Goa Cab Service", item: "https://fastalfazcab.in/location/margoa" }] };
 
 
