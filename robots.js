@@ -9,7 +9,7 @@ export function robots() {
       allow: "/",
       disallow: [], // add paths here later if you ever need to block something, e.g. "/admin"
     },
-    sitemap: "https://yourdomain.com/sitemap.xml",
+    sitemap: "https://fastalfazcab.in/sitemap.xml",
   }
 }
  

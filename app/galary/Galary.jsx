@@ -10,7 +10,7 @@ export const metadata = {
   description:
     "View photos of Alfaz Cab Service vehicles and taxi services across Goa.",
   alternates: {
-    canonical: "https://yourdomain.com/gallery",
+    canonical: "https://fastalfazcab.in/#gallery",
   },
   keywords: [
     "Alfaz cab Goa",

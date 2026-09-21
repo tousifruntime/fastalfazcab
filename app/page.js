@@ -9,7 +9,7 @@ import Marquee from "./Marquee/Marquee";
 import Footer from "./components/Footer";
 import CallButton from "./components/CallButton";
 
-const SITE_URL = "https://yourdomain.com";
+const SITE_URL = "http://fastalfazcab.in";
 const PHONE = "+91-7489415896";
 
 export const metadata = {

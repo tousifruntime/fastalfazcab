@@ -4,7 +4,7 @@ export const metadata = {
   title: "Cab Services in Goa | Airport, Local & Outstation Taxi",
   description:  "Explore Alfaz cab services in Goa including airport transfers, local taxi rides, sightseeing trips, and comfortable outstation journeys.",
   alternates: {
-    canonical: "https://yourdomain.com/services",
+    canonical: "https://fastalfazcab.in/#services",
   },
   keywords: [
     "cab services Goa",

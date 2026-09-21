@@ -8,7 +8,7 @@ export const metadata = {
   description:
     "Reliable cab and taxi service in Panjim, Goa — rides to Fontainhas, Miramar, Dona Paula, the Mandovi Riverfront and nearby attractions. Available 24/7.",
   alternates: {
-    canonical: "https://yourdomain.com/location/panjim",
+    canonical: "http://fastalfazcab.in/location/panjim",
   },
   keywords: [
     "cab in Panjim Goa",
@@ -18,11 +18,11 @@ export const metadata = {
     "Dona Paula taxi",
     "Panjim airport transfer",
   ],
-  openGraph: { title: "Cab Service in Panjim Goa | Alfaz", description: "Reliable cab and taxi service in Panjim — Fontainhas, Miramar, Dona Paula and beyond. Available 24/7.", url: "https://yourdomain.com/location/panjim", siteName: "Alfaz Cab Service", images: [{ url: "https://yourdomain.com/og-image.jpg", width: 1200, height: 630, alt: "Alfaz Cab Service — Panjim Goa" }], locale: "en_IN", type: "website" },
+  openGraph: { title: "Cab Service in Panjim Goa | Alfaz", description: "Reliable cab and taxi service in Panjim — Fontainhas, Miramar, Dona Paula and beyond. Available 24/7.", url: "http://fastalfazcab.in/location/panjim", siteName: "Alfaz Cab Service", images: [{ url: "https://yourdomain.com/og-image.jpg", width: 1200, height: 630, alt: "Alfaz Cab Service — Panjim Goa" }], locale: "en_IN", type: "website" },
 };
 
 const taxiServiceSchema = { "@context": "https://schema.org", "@type": "TaxiService", name: "Alfaz Cab Service — Panjim Goa", image: "https://yourdomain.com/og-image.jpg", description: "Reliable cab and taxi service in Panjim for city trips, sightseeing, airport transfers, and local rides.", telephone: "+91-7489415896", priceRange: "₹₹", areaServed: ["Panjim", "Fontainhas", "Miramar", "Dona Paula", "Mandovi Riverfront"], address: { "@type": "PostalAddress", addressLocality: "Panjim", addressRegion: "Goa", addressCountry: "IN" }, geo: { "@type": "GeoCoordinates", latitude: "15.4909", longitude: "73.8278" } };
-const breadcrumbSchema = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "Home", item: "https://yourdomain.com/" }, { "@type": "ListItem", position: 2, name: "Panjim Goa Cab Service", item: "https://yourdomain.com/location/panjim" }] };
+const breadcrumbSchema = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "Home", item: "http://fastalfazcab.in/" }, { "@type": "ListItem", position: 2, name: "Panjim Goa Cab Service", item: "http://fastalfazcab.in/location/panjim" }] };
 
 
 const SPOTS = [

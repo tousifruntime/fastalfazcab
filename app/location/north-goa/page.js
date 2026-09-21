@@ -7,7 +7,7 @@ export const metadata = {
   title: "Cab Service in North Goa | Airport, Beach & Local Taxi | Alfaz",
     description: "Reliable cab and taxi service in North Goa — rides to Calangute, Baga, Anjuna, Vagator and nearby beaches. Airport transfers and local trips, available 24/7.",
   alternates: {
-    canonical: "https://yourdomain.com/location/north-goa",
+    canonical: "http://fastalfazcab.in/location/north-goa",
   },
   keywords: [
     "cab in North Goa",
@@ -20,7 +20,7 @@ export const metadata = {
   openGraph: {
     title: "Cab Service in North Goa | Alfaz",
     description: "Reliable cab and taxi service in North Goa — Calangute, Baga, Anjuna and beyond. Available 24/7.",
-    url: "https://yourdomain.com/location/north-goa",
+    url: "http://fastalfazcab.in/location/north-goa",
     siteName: "Alfaz Cab Service",
     images: [{ url: "https://yourdomain.com/og-image.jpg", width: 1200, height: 630, alt: "Alfaz Cab Service — North Goa" }],
     locale: "en_IN",
@@ -45,8 +45,8 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://yourdomain.com/" },
-    { "@type": "ListItem", position: 2, name: "North Goa Cab Service", item: "https://yourdomain.com/location/north-goa" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "http://fastalfazcab.in/" },
+    { "@type": "ListItem", position: 2, name: "North Goa Cab Service", item: "http://fastalfazcab.in/location/north-goa" },
   ],
 };
 

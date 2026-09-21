@@ -4,7 +4,7 @@
 
 
 export function sitemap() {
-  const baseUrl = "https://yourdomain.com"
+  const baseUrl = "https://fastalfazcab.in"
  
   const locations = [
     "north-goa",

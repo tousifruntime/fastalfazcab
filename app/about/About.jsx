@@ -9,7 +9,7 @@ export const metadata = {
   description:
     "Learn about Alfaz Cab Service, a trusted Goa taxi service providing comfortable and reliable rides for airport transfers, local travel, and outstation trips.",
   alternates: {
-    canonical: "https://yourdomain.com/about",
+    canonical: "https://fastalfazcab.in/#about",
   },
   keywords: [
     "Alfaz cab service",

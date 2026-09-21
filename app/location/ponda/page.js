@@ -7,7 +7,7 @@ export const metadata = {
   description:
     "Reliable cab and taxi service in Ponda, Goa — rides to spice plantations, Mangeshi Temple, Shantadurga Temple and nearby attractions. Available 24/7.",
   alternates: {
-    canonical: "https://yourdomain.com/location/ponda",
+    canonical: "http://fastalfazcab.in/location/ponda",
   },
   keywords: [
     "cab in Ponda Goa",
@@ -17,11 +17,11 @@ export const metadata = {
     "Ponda spice farm cab",
     "Ponda sightseeing taxi",
   ],
-  openGraph: { title: "Cab Service in Ponda Goa | Alfaz", description: "Reliable cab and taxi service in Ponda for temples, spice farms, airport transfers and local trips. Available 24/7.", url: "https://yourdomain.com/location/ponda", siteName: "Alfaz Cab Service", images: [{ url: "https://yourdomain.com/og-image.jpg", width: 1200, height: 630, alt: "Alfaz Cab Service — Ponda Goa" }], locale: "en_IN", type: "website" },
+  openGraph: { title: "Cab Service in Ponda Goa | Alfaz", description: "Reliable cab and taxi service in Ponda for temples, spice farms, airport transfers and local trips. Available 24/7.", url: "http://fastalfazcab.in/location/ponda", siteName: "Alfaz Cab Service", images: [{ url: "https://yourdomain.com/og-image.jpg", width: 1200, height: 630, alt: "Alfaz Cab Service — Ponda Goa" }], locale: "en_IN", type: "website" },
 };
 
 const taxiServiceSchema = { "@context": "https://schema.org", "@type": "TaxiService", name: "Alfaz Cab Service — Ponda Goa", image: "https://yourdomain.com/og-image.jpg", description: "Reliable cab and taxi service in Ponda for temple visits, spice farms, airport transfers, and local rides.", telephone: "+91-7489415896", priceRange: "₹₹", areaServed: ["Ponda", "Mangeshi", "Kavlem", "Shiroda", "Bondla"], address: { "@type": "PostalAddress", addressLocality: "Ponda", addressRegion: "Goa", addressCountry: "IN" }, geo: { "@type": "GeoCoordinates", latitude: "15.4020", longitude: "74.0120" } };
-const breadcrumbSchema = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "Home", item: "https://yourdomain.com/" }, { "@type": "ListItem", position: 2, name: "Ponda Goa Cab Service", item: "https://yourdomain.com/location/ponda" }] };
+const breadcrumbSchema = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "Home", item: "http://fastalfazcab.in/" }, { "@type": "ListItem", position: 2, name: "Ponda Goa Cab Service", item: "http://fastalfazcab.in/location/ponda" }] };
 
 
 const SPOTS = [
