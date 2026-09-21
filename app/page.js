@@ -10,7 +10,7 @@ import Footer from "./components/Footer";
 import CallButton from "./components/CallButton";
 
 const SITE_URL = "https://yourdomain.com";
-const PHONE = "+91-7776069948";
+const PHONE = "+91-7489415896";
 
 export const metadata = {
   title: "Cab in Goa | Reliable 24/7 Cab Service by Alfaz",
@@ -137,7 +137,7 @@ const Page = () => {
       </div>
 
       {/* Kept outside the clipped wrapper so the fixed button is never cut off */}
-      <CallButton phone="7776069948" countryCode="+91" label="Call now" />
+      <CallButton phone="7489415896" countryCode="+91" label="Call now" />
     </>
   );
 };

@@ -34,7 +34,7 @@ const taxiServiceSchema = {
   name: "Alfaz Cab Service — North Goa",
   image: "https://yourdomain.com/og-image.jpg",
   description: "Reliable cab and taxi service in North Goa for airport transfers, beach trips, and local rides.",
-  telephone: "+91-7776069948",
+  telephone: "+91-7489415896",
   priceRange: "₹₹",
   areaServed: ["North Goa", "Calangute", "Baga", "Anjuna", "Vagator"],
   address: { "@type": "PostalAddress", addressLocality: "North Goa", addressRegion: "Goa", addressCountry: "IN" },

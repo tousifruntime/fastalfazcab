@@ -97,7 +97,7 @@ export default function Footer() {
               <Car size={18} />
             </span>
             <span className="text-lg font-bold tracking-tight">
-              Velocity Motors
+              Fast Alfaz Cab
             </span>
           </div>
           <p className="text-sm text-gray-400 max-w-xs leading-relaxed">
@@ -111,7 +111,7 @@ export default function Footer() {
               className="flex items-center gap-2 hover:text-white transition-colors duration-300"
             >
               <Phone size={14} className="text-green-400 shrink-0" />
-              +91 7776069948
+              +91 7489415896
             </a>
             <a  href="mailto:fastalfazcab@gmail.com"
               className="flex items-center gap-2 hover:text-white transition-colors duration-300 break-all">
@@ -227,7 +227,7 @@ export default function Footer() {
       {/* BOTTOM BAR */}
       <div className="max-w-6xl mx-auto px-4 sm:px-6 md:px-8 py-6 flex flex-col-reverse sm:flex-row items-center justify-between gap-4">
         <p className="text-xs text-gray-500 text-center sm:text-left">
-          © {year} Velocity Motors. All rights reserved.
+          © {year} Fast Alfaz Cab. All rights reserved.
         </p>
 
         <button

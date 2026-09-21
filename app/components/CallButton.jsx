@@ -14,10 +14,10 @@ import { useEffect, useRef, useState } from "react";
  *
  * Usage:
  *   <CallButton />
- *   <CallButton phone="7776069948" countryCode="+91" label="Call now" />
+ *   <CallButton phone="7489415896" countryCode="+91" label="Call now" />
  */
 
-const DEFAULT_PHONE = "7776069948";
+const DEFAULT_PHONE = "7489415896";
 const DEFAULT_COUNTRY_CODE = "+91";
 const IDLE_DELAY = 450; // ms of scroll silence before the label returns
 
