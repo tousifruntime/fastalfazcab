@@ -207,7 +207,7 @@ export async function POST(request) {
       day: "numeric",
     });
 
-    const fromAddress = "onboarding@resend.dev";
+    const fromAddress = "contact@fastalfazcab.in";
 
     // SEND ONLY TO ADMIN - NO CLIENT EMAIL
     const adminPayload = {
