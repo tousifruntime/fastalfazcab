@@ -23,6 +23,23 @@ export const metadata = {
     "Goa sightseeing taxi",
     "Goa airport taxi",
     "Goa cab vehicles",
+    "cab in miramar",
+    "cab in panjim",
+    "cab in panji",
+    "cab in caranzalem",
+    "cab in santa inez",
+    "cab around me",
+    "cab in goa",
+    "taxi in miramar",
+    "taxi in panjim",
+    "taxi in panji",
+    "taxi in caranzalem",
+    "taxi in santa inez",
+    "taxi around me",
+    "taxi in goa",
+    "taxi",
+    "goa",
+    "cab",
   ],
 };
 
@@ -95,13 +112,13 @@ function ProjectCard({ project, index, total }) {
 
           {/* Left Img */}
           <div  className="flex flex-col gap-3 sm:gap-4 min-h-0 h-2/5 sm:h-auto w-full sm:w-[40%]">
-            <img src={project.col1[0]} alt={`${project.name} detail 1`} className="w-full h-full object-cover rounded-[24px] sm:rounded-[50px] md:rounded-[60px]"/>
+            <img src={project.col1[0]} alt={`Alfaz Cab Service - ${project.name} in Goa`} className="w-full h-full object-cover rounded-[24px] sm:rounded-[50px] md:rounded-[60px]"/>
            </div>
 
           {/* Right Img */}
           <div className="min-h-0 h-3/5 sm:h-auto w-full sm:w-[60%]">
             <img  src={project.col2}
-              alt={`${project.name} main`}
+              alt={`${project.name} taxi service by Alfaz Cab Service in Goa`}
               className="w-full h-full object-cover rounded-3xl sm:rounded-[50px] md:rounded-[60px]"
             />
           </div>
