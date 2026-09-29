@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <section id="home"
       className="relative w-full min-h-screen flex flex-col justify-between overflow-hidden"
-      itemScope  itemType="https://schema.org/TaxiService"  >
+     >
 
       {/* Image fade-in animation (CSS only, so it doesn't depend on FadeIn) */}
       <style>{`
@@ -106,8 +106,7 @@ export default function Hero() {
                   fontSize: "clamp(2.2rem, 11vw, 9rem)",
                   lineHeight: "1.1",
                   textShadow: "0 4px 6px rgba(0,0,0,0.5)",
-                }}
-                itemProp="name"
+                }} 
               >
                 Hi, I&apos;m Alfaz
               </h1>
@@ -123,7 +122,7 @@ export default function Hero() {
 
               <p
                 className="text-white/60 text-xs sm:text-sm md:text-base leading-relaxed drop-shadow"
-                itemProp="description"
+                 
               >
                 Reliable taxi and cab service in Goa for airport transfers,
                 local rides, sightseeing tours and outstation journeys to
